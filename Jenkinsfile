@@ -6,7 +6,7 @@ pipeline {
     ECR_SNAPSHOT = '376842762709.dkr.ecr.ap-south-1.amazonaws.com/appointmentservice'
     ECR_RELEASE = '376842762709.dkr.ecr.ap-south-1.amazonaws.com/appointmentservice'
     IMAGE_NAME = 'appointmentservice'
-    ECS_CLUSTER = 'hospital-management-prod-cluster'
+    ECS_CLUSTER = 'hospital-management-dev-cluster'
     ECS_SERVICE = 'appointment-service'
   }
   stages {
